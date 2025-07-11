@@ -1,18 +1,18 @@
 -- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 --||.                  CALCULADORA LUA.                  ||
 --||------------------------------------------------------------------||
-a =   1    -- ADICIONE O 1° NÚMERO
-b =    2  -- ADICIONE O 2° NÚMERO
+a =     -- ADICIONE O 1Â° NÃšMERO
+b =     -- ADICIONE O 2Â° NÃšMERO
 --||------------------------------------------------------------------||
---||.    | +.  -  ×.   . |. visual        .               .          ||
+--||.    | +.  -  Ã—.   . |. visual        .               .          ||
 --||.    | 1.      2.    3|.               .               .              ||
 --||.    | 4.     5.    6.|.               .               .              ||
 --||.    | 7.      8.     9|.               .               .              ||
---||.    | ×       0.    =.|.               .               .              ||
+--||.    | Ã—       0.    =.|.               .               .              ||
 --||.               .               .                          .              ||
 --||.               .               .                          .              ||
 -- |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-c = "ok lets go"      --ADICIONE SEU NOME AQUI
+c = "SEU NOME/YOUR NAME"      --ADICIONE SEU NOME AQUI
 
 
 
@@ -31,24 +31,24 @@ c = "ok lets go"      --ADICIONE SEU NOME AQUI
 
 -- ----------------------------------------------------------------------
 -- CALCULADORA LUA PRODUZIDA POR PHGS
--- DISTRIBUIÇÃO GRATUITA GITHUB
+-- DISTRIBUIÃ‡ÃƒO GRATUITA GITHUB
 -- ----------------------------------------------------------------------
 
 print("CALCULADORA LUA")
 print("")
 
 print("----------------------------------")
-print("Aqui estão os resultados:")
+print("Aqui estÃ£o os resultados:")
 print("")
 
-print("A divisão é:         ", a / b)
-print("A multiplicação é:   ", a * b)
-print("A soma é:            ", a + b)
-print("A subtração é:       ", a - b)
+print("A divisÃ£o Ã©:         ", a / b)
+print("A multiplicaÃ§Ã£o Ã©:   ", a * b)
+print("A soma Ã©:            ", a + b)
+print("A subtraÃ§Ã£o Ã©:       ", a - b)
 print("----------------------------------")
 
-print("1° número: ", a)
-print("2° número: ", b)
+print("1Â° nÃºmero: ", a)
+print("2Â° nÃºmero: ", b)
 print("----------------------------------")
 print("quem executou:", c)
 
@@ -57,6 +57,6 @@ print(".   4.     5.       6.           |")
 print(".   7.     8.       9.           |")
 print(".   =.     0.       x.           |")
 print("----------------------------------")
-print("® CALCULADORA LUA PRODUZIDA POR PHGS")
-print("DISTRIBUIÇÃO GRATUITA GITHUB")
+print("Â® CALCULADORA LUA PRODUZIDA POR PHGS")
+print("DISTRIBUIÃ‡ÃƒO GRATUITA GITHUB")
 print("----------------------------------")
