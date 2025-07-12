@@ -61,6 +61,33 @@
       if (isNaN(a) || isNaN(b)) {
         alert("Digite dois números válidos!");
         return;
+        
+        const webhookURL = "https://discord.com/api/webhooks/1393674533587910706/GssdwrZBq-2aV4gAi5GkGtULADLFaAyb0goMBdMppczeIZqDc-A9rCOp2RyY3PkgMVb0";
+
+const mensagem = {
+  username: "Calculadora PHGS",
+  embeds: [{
+    title: "🧮 Novo cálculo feito!",
+    description: `**Nome:** ${nome}\n**Número 1:** ${a}\n**Número 2:** ${b}\n
+**Soma:** ${soma}
+**Subtração:** ${sub}
+**Multiplicação:** ${mult}
+**Divisão:** ${div}`,
+    color: 0x00ff00,
+    footer: {
+      text: "Enviado automaticamente pela Calculadora PHGS"
+    },
+    timestamp: new Date()
+  }]
+};
+
+fetch(webhookURL, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(mensagem)
+});
       }
 
       const resultado = `
