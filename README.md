@@ -19,8 +19,8 @@
 Quick edit (RECOMENDADO)
 </p>
  &nbsp;
-       <a href="https://play.google.com/store/apps/details?id=com.rhmsoft.code">
-editor de código
+       <a href="https://onecompiler.com/lua/43qe53pwe">
+one compiler
 </p>
 
 
