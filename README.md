@@ -21,6 +21,9 @@ Quick edit (RECOMENDADO)
  &nbsp;
        <a href="https://onecompiler.com/lua/43qe53pwe">
 one compiler
+&nbsp;
+       <a href="http://calculadora-lua-br.ct.ws">
+Site da CALCULADORA LUA!
 </p>
 
 
